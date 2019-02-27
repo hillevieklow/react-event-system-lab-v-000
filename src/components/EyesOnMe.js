@@ -11,8 +11,6 @@ export default class EyesOnMe extends Component {
     console.log('Hey! Eyes on me!')
   )
 
-
-
   render() {
     return (
       <button onFocus={this.listenForFocus} onBlur={this.listenForBlur}></button>
